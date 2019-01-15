@@ -12,7 +12,33 @@
         <a class="nav-item nav-link" href="#">Your Benefit</a>
         <a class="nav-item nav-link" href="#">Our Programs</a>
         <a class="nav-item nav-link" href="#">Our Tutors</a>
-        <a class="nav-item btn btn-secondary tombol" href="#">Login</a>
+        <a class="nav-item btn btn-secondary tombol" href="#" data-toggle="modal" data-target="#exampleModalCenter">Login</a>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Submit Your Email</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                We thank you for your participation. We apologize for the inconveniences as we are currently under the  development. Leave your email here, so you become the first to know if our service is ready.
+                Thank you.
+                <form>
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else. We also will never send you spam.</small>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary tombol">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -24,7 +50,7 @@
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h1 class="display-4">IMPROVE YOUR INDONESIAN<br>with native speaker tutors</h1>
-    <a class="nav-item btn btn-dark tombol" href="#">Get Started</a>
+    <a class="nav-item btn btn-dark tombol" href="#" data-toggle="modal" data-target="#exampleModalCenter">Get Started</a>
   </div>
 </div>
 <!-- Akhir Jumbotron -->
@@ -72,7 +98,7 @@
       </div>
     </div>
     <div class="row justify-content-center">
-      <a class="nav-item btn btn-dark tombol" href="#">Book a class</a>
+      <a class="nav-item btn btn-dark tombol" href="#" data-toggle="modal" data-target="#exampleModalCenter">Book a class</a>
     </div>
   </div>
 </section>
@@ -121,7 +147,7 @@
       </div>
     </div>
     <div class="row justify-content-center">
-      <a class="nav-item btn btn-dark tombol" href="#">Learn More</a>
+      <a class="nav-item btn btn-dark tombol" href="#" data-toggle="modal" data-target="#exampleModalCenter">Learn More</a>
     </div>
     <br>
   </div>
@@ -211,7 +237,7 @@
       </div>
     </div>
     <div class="row justify-content-center">
-      <button class="nav-item btn btn-dark tombol" href="#">View All Tutors</button>
+      <button class="nav-item btn btn-dark tombol" href="#" data-toggle="modal" data-target="#exampleModalCenter">View All Tutors</button>
     </div>
   </div>
 </section>
